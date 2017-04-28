@@ -16,4 +16,9 @@
     "type": "git",
     "url": "git://github.com/StartPolymer/s-circle-progress.git"
   },
+  "dependencies": {
+    "polymer": "^2.0.0-rc.7",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#2.0-preview",
+    "iron-resizable-behavior": "PolymerElements/iron-resizable-behavior#2.0-preview"
+  }
 }
