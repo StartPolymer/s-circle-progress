@@ -150,6 +150,10 @@ Polymer({
     "iron-resize": "_onIronResize"
   },
 
+  attached() {
+    this.async(this.notifyResize, 1);
+  },
+
   _computeDashArray: function(radius) {
     return 2 * Math.PI * radius;
   },
