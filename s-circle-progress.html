@@ -41,8 +41,7 @@ svg {
 }
 
 .Circle-foreground {
-  transition: stroke-dashoffset 150ms;
-
+  transition: var(--s-circle-progress-transition, stroke-dashoffset 150ms);
   stroke: var(--s-circle-progress-stroke-color, --accent-color);
   stroke-linecap: var(--s-circle-progress-stroke-linecap, round);
 }
